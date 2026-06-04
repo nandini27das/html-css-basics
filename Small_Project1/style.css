@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    line-height:1.6;
+    background:#f4f4f4;
+}
+
+/* Header */
+
+header{
+    background:#222;
+    color:white;
+    padding:15px 30px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color:#00bcd4;
+}
+
+/* Hero */
+
+.hero{
+    text-align:center;
+    padding:50px 20px;
+    background:white;
+}
+
+.hero img{
+    width:180px;
+    border-radius:50%;
+    margin-bottom:20px;
+}
+
+.hero button{
+    margin-top:15px;
+    padding:10px 20px;
+    border:none;
+    background:#00bcd4;
+    color:white;
+    cursor:pointer;
+}
+
+.hero button:hover{
+    background:#0097a7;
+}
+
+/* Sections */
+
+section{
+    padding:40px;
+    margin:20px;
+    background:white;
+    border-radius:10px;
+}
+
+/* Skills */
+
+#skills ul{
+    margin-top:10px;
+    padding-left:20px;
+}
+
+/* Table */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table, th, td{
+    border:1px solid #ccc;
+}
+
+th, td{
+    padding:12px;
+    text-align:left;
+}
+
+/* Form */
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+input,
+textarea{
+    margin-bottom:15px;
+    padding:10px;
+}
+
+form button{
+    background:#28a745;
+    color:white;
+    border:none;
+    padding:12px;
+    cursor:pointer;
+}
+
+form button:hover{
+    background:#218838;
+}
+
+/* Footer */
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#222;
+    color:white;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    nav{
+        flex-direction:column;
+        gap:10px;
+    }
+
+    nav ul{
+        flex-direction:column;
+        text-align:center;
+    }
+}
